@@ -1,0 +1,30 @@
+
+
+.menu-mobile-btn{
+    font-size: 1.75rem;
+    cursor: pointer;
+}
+
+/* PC */
+@media (min-width: 1024px){
+    .menu-mobile-btn{
+        display: none;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px){
+    
+    .container{
+        max-width: 600px;
+    }
+
+    .navbar-collapse{
+        display: block !important;
+    }
+}
+
+/* Mobile */
+@media (max-width: 740px){
+
+}
